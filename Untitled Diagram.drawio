@@ -1,49 +1,351 @@
-<mxfile host="app.diagrams.net" modified="2024-08-16T15:22:48.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.1" etag="hLrL0t17NyCoAIUiHBvD" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="927" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-0" value="&lt;div&gt;Problem_12 &amp;gt;&amp;gt;Write a program to ask the user to enter: (Number1 , Number2)&lt;/div&gt;&lt;div&gt;- Thenprint the max Number .&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="50" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-1" value="&lt;div&gt;Steps :&amp;nbsp;&lt;/div&gt;&lt;div&gt;1- Ask the user to enter Num1 , Num2&lt;/div&gt;&lt;div&gt;2- If Num1 &amp;gt; Num2 , Then Num1 is Max otherwise Num2 is Max&lt;/div&gt;&lt;div&gt;3- Print Max Accrdingly&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="90" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-2" target="T20bZ-1u2gYbbRUBojmK-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="383" y="220" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-3" target="T20bZ-1u2gYbbRUBojmK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-3" value="Read Num1, Num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="333" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-5" target="T20bZ-1u2gYbbRUBojmK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-5" target="T20bZ-1u2gYbbRUBojmK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-5" value="Num1 &amp;gt; Num2" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="380" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-7" target="T20bZ-1u2gYbbRUBojmK-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-7" value="Print Num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="162" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-10" target="T20bZ-1u2gYbbRUBojmK-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-10" value="Print Num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="554" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-12" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="484" y="380" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-13" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="383" y="520" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-19" value="&lt;div&gt;Problem_13 &amp;gt;&amp;gt; Write a program to ask the user to enter 3 numbers: A , B , C&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Then Print Max number&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="585" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-21" target="T20bZ-1u2gYbbRUBojmK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-21" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379" y="640" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-22" target="T20bZ-1u2gYbbRUBojmK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-22" value="Read A , B , C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="339" y="710" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-24" target="T20bZ-1u2gYbbRUBojmK-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-24" target="T20bZ-1u2gYbbRUBojmK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-24" value="A &amp;gt; B" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="374" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-26" target="T20bZ-1u2gYbbRUBojmK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-26" target="T20bZ-1u2gYbbRUBojmK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-26" value="A&amp;gt;c" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-28" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-29" value="Print A&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-31" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-32" value="Print C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="880" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-34" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="472" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-35" target="T20bZ-1u2gYbbRUBojmK-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-35" target="T20bZ-1u2gYbbRUBojmK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-35" value="B &amp;gt; C" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-37" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-39" value="Print B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-42" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="278" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-44" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="377" y="1050" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-29" target="T20bZ-1u2gYbbRUBojmK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-39" target="T20bZ-1u2gYbbRUBojmK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-32" target="T20bZ-1u2gYbbRUBojmK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-48" value="&lt;div&gt;Problem_14 &amp;gt;&amp;gt;Swap Numbers&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write a program to ask the user to user : Number1 , Number2&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Then print the two numbers , then swap the two nubers and print them&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1120" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-49" value="&lt;div&gt;Steps :&amp;nbsp;&lt;/div&gt;&lt;div&gt;1- Ask the user to number Num1 , Num2&amp;nbsp;&lt;/div&gt;&lt;div&gt;2- Print Num1&amp;nbsp;&lt;/div&gt;&lt;div&gt;3- Print Num2&amp;nbsp;&lt;/div&gt;&lt;div&gt;4- Temp = Num1&amp;nbsp;&lt;/div&gt;&lt;div&gt;5- Num1 = Num2&lt;/div&gt;&lt;div&gt;6- Num2 = Temp&lt;/div&gt;&lt;div&gt;7- Print Num1&amp;nbsp;&lt;/div&gt;&lt;div&gt;8- Print Num2&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="1180" width="322" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-50" target="T20bZ-1u2gYbbRUBojmK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-50" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381" y="1280" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-51" target="T20bZ-1u2gYbbRUBojmK-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-51" value="Read Num1 , Num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320.5" y="1350" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-53" target="T20bZ-1u2gYbbRUBojmK-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-53" value="Print Num1&amp;nbsp;&lt;div&gt;Print Num2&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330.38" y="1410" width="160.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-55" target="T20bZ-1u2gYbbRUBojmK-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-55" value="Temp = Num1&amp;nbsp;&lt;div&gt;Num1 = Num2&lt;/div&gt;&lt;div&gt;Num2 = Temp&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325.49" y="1470" width="170.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-57" value="Print Num1&amp;nbsp;&lt;div&gt;Print Num2&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="356" y="1580" width="109.51" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-61" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381" y="1640" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-57" target="T20bZ-1u2gYbbRUBojmK-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-63" value="&lt;div&gt;Problem_15 &amp;gt;&amp;gt; Rectangle Area&lt;/div&gt;&lt;div&gt;Write a program to calculate rectangle area and print it on the screen&lt;/div&gt;&lt;div&gt;// Area = a * b&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1724" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-64" value="&lt;div&gt;Steps :&amp;nbsp;&lt;/div&gt;&lt;div&gt;1- Ask user to enter a , b&amp;nbsp;&lt;/div&gt;&lt;div&gt;2- Area = a * b&amp;nbsp;&lt;/div&gt;&lt;div&gt;3- print Area&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="1790" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-65" target="T20bZ-1u2gYbbRUBojmK-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-65" value="Start&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="1820" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-66" target="T20bZ-1u2gYbbRUBojmK-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-66" value="Read a , b&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346.5" y="1890" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-68" target="T20bZ-1u2gYbbRUBojmK-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-68" value="Area = a * b&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346.5" y="1950" width="109" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-71" value="Print Area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="341.5" y="2020" width="119" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-73" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="2080" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-71" target="T20bZ-1u2gYbbRUBojmK-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-75" value="&lt;div&gt;Problem_16 &amp;gt;&amp;gt; Rectangle area Through Diagonal and side Area .&lt;/div&gt;&lt;div&gt;Write a program to calculate rectangle area through diagonal and site area of rectangle and print it on the screen .&lt;/div&gt;&lt;div&gt;Area = a * sqrt (d*d - a*a)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2160" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-76" value="&lt;div&gt;Steps :&amp;nbsp;&lt;/div&gt;&lt;div&gt;1- Ask the user enter a , d&amp;nbsp;&lt;/div&gt;&lt;div&gt;2- Area = a * sqrt (d*d - a*a)&lt;/div&gt;&lt;div&gt;3- Print Area&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="2230" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-78" target="T20bZ-1u2gYbbRUBojmK-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-78" value="Start&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379.49" y="2230" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-80" target="T20bZ-1u2gYbbRUBojmK-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-80" value="Read a , d&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="353.75" y="2298" width="114.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-82" target="T20bZ-1u2gYbbRUBojmK-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-82" value="Area = a * sqrt (d*d - a*a)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300.76" y="2360" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-83" value="Print Area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350.99" y="2430" width="119" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-84" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379.49" y="2490" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-83" target="T20bZ-1u2gYbbRUBojmK-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-86" value="&lt;div&gt;Problem_17 &amp;gt;&amp;gt; Triangle Area&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write a program to calculate triangle area then print it on the screen&amp;nbsp;&lt;/div&gt;&lt;div&gt;// Area = a/2*h&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="162" y="2570" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-87" value="&lt;div&gt;Steps :&lt;/div&gt;&lt;div&gt;1- Ask user enter a , h&amp;nbsp;&lt;/div&gt;&lt;div&gt;2- a/2*h&amp;nbsp;&lt;/div&gt;&lt;div&gt;3- Print Area&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2640" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-89" target="T20bZ-1u2gYbbRUBojmK-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-89" value="Start&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.49" y="2640" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-91" target="T20bZ-1u2gYbbRUBojmK-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-91" value="Read a , h&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355.75" y="2708" width="114.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-93" target="T20bZ-1u2gYbbRUBojmK-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-93" value="Area =&amp;nbsp;a / 2 * h&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="302.76" y="2770" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-94" value="Print Area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="352.99" y="2840" width="119" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-95" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.49" y="2900" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-94" target="T20bZ-1u2gYbbRUBojmK-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-97" value="&lt;div&gt;Problem_18 &amp;gt;&amp;gt; Circle Area&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write a program to calculate circle area then print it on the screen .&amp;nbsp;&lt;/div&gt;&lt;div&gt;// PI = 3.14&amp;nbsp;&lt;/div&gt;&lt;div&gt;// Area = PI * (r*r)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2960" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-98" value="&lt;div&gt;Steps :&lt;/div&gt;&lt;div&gt;1- Ask the user to enter r .&lt;/div&gt;&lt;div&gt;2- PI = 3.14&lt;/div&gt;&lt;div&gt;3- Area = PI * (r*r)&lt;/div&gt;&lt;div&gt;4- Print r&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="3030" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-100" target="T20bZ-1u2gYbbRUBojmK-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-100" value="Start&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.49" y="3080" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-102" target="T20bZ-1u2gYbbRUBojmK-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-102" value="Read&amp;nbsp; r&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355.75" y="3148" width="114.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-104" target="T20bZ-1u2gYbbRUBojmK-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-104" value="PI = 3.14&amp;nbsp;&amp;nbsp;&lt;div&gt;Area = PI * ( r * r )&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="302.76" y="3210" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-105" value="Print Area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="352.99" y="3280" width="119" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-106" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.76" y="3340" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412.49" y="3340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-108" value="&lt;div&gt;Problem_18 &amp;gt;&amp;gt; Circle Area&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write a program to calculate circle area then print it on the screen .&amp;nbsp;&lt;/div&gt;&lt;div&gt;// PI = 3.14&amp;nbsp;&lt;/div&gt;&lt;div&gt;// Area = PI * (r*r)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="3530" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-109" value="&lt;div&gt;Steps :&lt;/div&gt;&lt;div&gt;1- Ask the user to enter r .&lt;/div&gt;&lt;div&gt;2- PI = 3.14&lt;/div&gt;&lt;div&gt;3- Area = PI * (r*r)&lt;/div&gt;&lt;div&gt;4- Print r&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="3620" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-111" target="T20bZ-1u2gYbbRUBojmK-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-111" value="Start&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379.49" y="3640" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.79999999999995" y="3770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-113" value="Read&amp;nbsp; r&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="353.75" y="3708" width="114.01" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="T20bZ-1u2gYbbRUBojmK-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.79999999999995" y="3820" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-115" value="PI = 3.14&amp;nbsp;&amp;nbsp;&lt;div&gt;Area = PI * ( r * r )&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300.76" y="3770" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-116" value="Print Area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350.76" y="3850" width="119" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-117" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379.49" y="3900" width="62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T20bZ-1u2gYbbRUBojmK-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T20bZ-1u2gYbbRUBojmK-116" target="T20bZ-1u2gYbbRUBojmK-117">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
