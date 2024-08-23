@@ -27,3 +27,30 @@ Then print the average of entered Marks
 
 Problem_11 >>Write a program to ask the user to enter : Mark1 , Mark2 , Mark3
 Then Print the Average of entered Marks , and print "Pass" if average >= 50 , otherwise print "Fail"
+
+Problem_12 >> Write a program to ask the user to enter : (Number1 , Number2)
+-Then print the max Number.
+
+Problem_13 >> Write a program to ask the user to enter 3 numbers : A , B , C
+-Then print Max number 
+
+Problem_14 >> Swap Numbers 
+Write a program to ask the user to user : Number1 . Number2 
+-Then print two numbers , then swap the two numbers and print them 
+
+Problem_15 >>Rectangle Area 
+Write a program to calculate rectangle area and print it on the screen 
+// Area = a*b 
+
+Problem_16 >>Rectangle area though diagonal and side Area .
+Write a program to calculate rectangle area through diagonal and site area of rectangle and print it on the screen .
+//Area = a * sqrt(d*d - a*a)
+
+Problem_17 >>Triangle Area 
+Write a program to calculate triangle area then print it on the screen 
+// Area = a/2 * h
+
+Problem_18 >>Circle Area 
+Write a program to calculate  circle area then print it on the screen 
+//PI = 3.14
+//Area = PI * (r * r)
