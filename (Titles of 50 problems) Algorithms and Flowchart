@@ -54,3 +54,25 @@ Problem_18 >>Circle Area
 Write a program to calculate  circle area then print it on the screen 
 //PI = 3.14
 //Area = PI * (r * r)
+
+Problem_19 >>Circle Area Through Diameter
+Write a program to calculate circle area through dirameter, then print it on the screen 
+
+Problem_20 >> Circle Area Inscribed in a square 
+Write a program to calculate area inscribed in a square , then print it on the screen
+
+Problem_21 >> Circle Area Along the circumference 
+Write a program to calculate circle area along the circumference, then print it on the screen 
+// Area = (L * L) / (4 * PI)
+
+Problem_22 >>Circle Area Inscribed in an Isosceles Triangle
+Write a program to calculate circle area Inscribed in an Isosceles Triangle ,Then print it on the screen 
+// Area = (PI*b*b/4)*((2*a-b)/(2*a+b))
+
+Problem_23 >> Circle Area Circle Described Around an Arbitrary Triangle
+Write a program to calculate Circle Described Around an Arbitrary Triangle ,Then print it on the screen .
+// T = (a*b*c) / (4*sqrt (P*(P-a)*(P-b)*(P-c)))
+
+Problem_24 >> Validate Age Between 18 and 45
+Write a program to ask the user enter Age 
+- If age is between 18 and 45 print "Valid Age" otherwise print "Invalid Age"
