@@ -76,3 +76,37 @@ Write a program to calculate Circle Described Around an Arbitrary Triangle ,Then
 Problem_24 >> Validate Age Between 18 and 45
 Write a program to ask the user enter Age 
 - If age is between 18 and 45 print "Valid Age" otherwise print "Invalid Age"
+Problem_25 >> Read until Age between 18 and 45 
+Write a program to ask the user to enter : age 
+- if age is 18 and 45 print "Valid Age" otherwise print "Invalid Age" and re-ask user to enter a valid age .
+note : you should keep asking user to enter a valid age until s/she enters it .
+
+Problem_26 >> Read numbers from 1 to N (loops )
+Write a program to print numbers from 1 to N 
+input >> 10 
+output >> 1 2 3 4 5 6 7 8 9 10  
+N == The number entered by the user
+counter == Default value store it
+
+Problem_27 >> Read numbers from 1 to N (loops )
+Write a program to print numbers from N to 1 
+input == 10
+output >> 10 9 8 7 6 5 4 3 2 1
+
+Problem_28 >> Sum Odd Numbers from 1 to N 
+Write a program to Sum ODD numbers from 1 to N 
+input >> 10 
+output >> 25
+
+Problem_29 >> Sum EVEN Numbers from 1 to N 
+Write a program to Sum EVEN numbers from 1 to N 
+input >> 10 
+output >> 30
+
+Problem_30 >> Factorial of N!
+Write a program to calculate factorial of N !
+factorial of 6 >> 6 * 5 * 4 * 3 * 2 * 1 = 720
+note : User should only positive number , other wise reject it and ask to enter again 
+input >> 6 
+output >> 720
+
