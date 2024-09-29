@@ -110,3 +110,66 @@ note : User should only positive number , other wise reject it and ask to enter 
 input >> 6 
 output >> 720
 
+Problem_31 >> Power of 2 , 3 , 4
+Write a program to ask the user to enter : Number 
+# then print the  Number 2 , Number 3 , Number 4 
+input >> 3 
+output >> 9 , 27 , 81 
+
+Problem_32 >> Power of M (LOOPS)
+Write a program to ask the user to enter : Number , M 
+Then print the Number ^ M
+input >> 2 , 4
+output >> 16 
+
+Problem_33 >> Grade A,B,C,D,E,F
+Write a program to ask the user to enter : Grade
+Then print the grade as follows:
+- 100 - 90 print A
+- 89 - 80 print B
+- 79 - 70 print C
+- 69 - 60 print D
+- 59 - 50 print E
+- Overwise print F
+Input >> 75 
+Output >> C
+
+Problem_34 >> Commission Percentage 
+Write a program to ask the user to enter : Total sales
+- The commission is calculate as one percentage * the total sales amount , all you need is to decide which percentage to use of the following : 
+> 1000,000 --> Percentage is 1%
+> 500K to 1M  --> Percentage is 2%
+> 100K - 500K --> Percentage is 3%
+> 50K to 100K --> Percentage is 5%
+> otherwise --> Percentage is 0%
+Input >> 110,000
+Output >> 3,300
+
+Problem_35 >> Piggy Bank Calculator 
+Write a program to ask the user to enter:
+Pennies , Nickels , Dimes , Quarters , Dollars 
+#Then calculate the total pennies , total dollars and print them on screen giving that :
+- penny  = 1
+- Nickel = 5
+- Dime   = 10
+- Quarter= 25
+- Dollar = 100
+Input >> 5,5,5,5,5
+Output>> 705pennies ,7.05Dollars
+
+Problem_36 >> Simple Calculator 
+Write a program to ask the user to enter :
+- Number1 , Number2 , Operation Type 
+Then perform the calculation according to the operation type as follows :
+- "+" add the two numbers.
+- "-" subtract the two numbers.
+- "*" multiply the two numbers.
+- "/" devide the two numbers.
+input >> 10 , 20 , *
+output>> 200
+
+Problem_37 >> Sum Until-99
+Write a program to read numbers from user and sum them , keep reading unit the user enters -99 then print the Sum on screen 
+input >> 10 , 20 , 30 , 40 , -99
+output >>100
+#This means that the program continues to receive numbers and adds them to the number before it, until it reaches the number (-99).
