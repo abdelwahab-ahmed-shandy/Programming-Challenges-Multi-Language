@@ -173,3 +173,17 @@ Write a program to read numbers from user and sum them , keep reading unit the u
 input >> 10 , 20 , 30 , 40 , -99
 output >>100
 #This means that the program continues to receive numbers and adds them to the number before it, until it reaches the number (-99).
+
+
+Outputs >> 2.17 weeks , 15.20Days 
+
+Problem_42 >> Task Duration In Seconds 
+Write a program to calculate the task duration in seconds and print it on screen 
+>> Give the time duration of a task in the numbers of days,hours,minutes and seconds 
+Input >> 2 , 4 , 45 , 35 
+Output>> 193,535 Seconds
+
+Problem_43 >> Seconds to Days Hours Minutes Seconds
+Write a program that inputs the number of seconds and changes it to days , hours , minutes and seconds 
+Input >> 193,535 
+Output >> 2:5:45:35 
