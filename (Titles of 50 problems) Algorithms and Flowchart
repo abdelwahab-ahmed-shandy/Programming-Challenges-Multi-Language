@@ -187,3 +187,65 @@ Problem_43 >> Seconds to Days Hours Minutes Seconds
 Write a program that inputs the number of seconds and changes it to days , hours , minutes and seconds 
 Input >> 193,535 
 Output >> 2:5:45:35 
+
+Problem_44 >> Day of week 
+Write a program to ask the user to enter : Day 
+Then Print the day as follows:
+1 Print Sunday 
+2 Print Monday 
+3 Print Tuesday
+4 Print Wednesday
+5 Print Thursday
+6 Print Friday 
+7 Print Saturday
+- Otherwise print  " Wrong Day " and ask the use to enter the day again 
+Input >> 6
+Output>> Its Friday 
+
+Problem_45 >> Month Of year 
+Write a program to ask the user to enter : Month
+Then Print the day as follows:
+1 print Jun
+2 print Feb
+3 print Mar
+4 print Apr
+5 print May 
+6 print June
+7 print July 
+8 print Aug 
+9 print Sep
+10 print Oct 
+11 print Nov 
+12 print December 
+- Otherwise print  " Wrong Day " and ask the use to enter the Manth again 
+Input >> 11
+Output>> Its Nov
+
+Problem_46 >> Print Letter From a to z
+Write a program to print all letters from A to Z 
+output >> a b c d ....... z
+
+Problem_47 >> Loan Installment Months 
+Write a program to read a LoanAmount and MonthlyPayment and Calculate how many months you needs to settle the loan.
+input >> 5000 $ , 500 M
+Output >> 10 Months
+
+Problem_48 >> Monthy Loan Installment 
+Write a program to read a LoanAmount and ask you how many months you need to settle the loan , then calculate the monthly installment amount .
+Input >> 5000 , 10 
+Output >> 500
+
+Problem_49 >> ATM PIN
+Write a program to read the ATM PIN code from the user, Then check if PIN code = 1234 , Then show the balance to user , otherwise print " Wong PIN " and ask the user to enter the PIN again 
+Assume User Balance is 7500
+Input >> 1234     5151 
+Output >> Your Balance is : 7500
+Wrong PIN  
+
+Problem_50 >> ATM PIN 3 Times 
+Write a program to read the ATM PIN code from the user , then check if code = 1234 , then show the balance to user , otherwise print " Wrong PIN " and ask the user to enter  the PIN again 
+#Only  allow user to enter the PIN 3 times , if fails , print " Card is locked " 
+- Assume user Balance is 7500 
+Input >> 1234      5151
+Output >> Your Balance is : 7500 
+Wrong PIN 
