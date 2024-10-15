@@ -1,2 +1,2 @@
-# 50_Programming_Challenges_CPP.
-Algorithms and problem solving Fifty programming problems that you can convert and implement into small programs. Do not forget that the most difficult programs in the world are very small programs. Solve problems and solve them using the flow chart You can convert it into code that actually works using any programming language Enjoy solving problems.
+# Mini Programs With Algorithms.
+Algorithms and Problem Solving 50 Programming Problems You Can Convert and Implement into Small Programs Don't Forget That the World's Hardest Programs Are Very Small Programs Problem Solving and Solving Using a Flowchart You Can Convert It into Code That Actually Works Using Any Programming Language Enjoy Solving Problems (Part 1).
