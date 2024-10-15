@@ -1,2 +1,2 @@
 # Mini Programs With Algorithms.
-Algorithms and Problem Solving 50 Programming Problems You Can Convert and Implement into Small Programs Don't Forget That the World's Hardest Programs Are Very Small Programs Problem Solving and Solving Using a Flowchart You Can Convert It into Code That Actually Works Using Any Programming Language Enjoy Solving Problems (Part 1).
+This project showcases the solution of 50 diverse programming challenges, focusing on problem-solving skills and algorithm development. Each problem is first approached with a detailed flowchart to visually represent the logic, and then implemented in C++. The project aims to demonstrate the practical application of algorithms in real-world scenarios, with a focus on simplicity, efficiency, and clarity.
