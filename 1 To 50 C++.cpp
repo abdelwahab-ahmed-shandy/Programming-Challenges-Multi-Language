@@ -1,4 +1,5 @@
 //Problem_1 >> Write a program to print your name on screen 
+
 #include <iostream> 
 using namespace std;
 
@@ -18,6 +19,7 @@ int main()
 //================================================================================================================================================================
 
 //Problem_2 >> Write a program to ask the user to enter his / hir name and print it on screen
+
 #include <iostream> 
 #include <string>
 
@@ -47,6 +49,7 @@ int main()
 //================================================================================================================================================================
 
 //Problem_3 >> Write a program to ask the user to enter a number , then print "ODD" if its odd , or "EVEN if its even
+
 #include <iostream>
 using namespace std;
 
@@ -147,7 +150,7 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 
-Problem_5 >> Write a program to ask the user to enter his/her : Age , Driver license and Has Recommendation! Then print "Hired if his/her" age is grater than 21 and s/he has a driver license , otherwise print "Rejected" Or Hire him/her without conditions! 
+//Problem_5 >> Write a program to ask the user to enter his/her : Age , Driver license and Has Recommendation! Then print "Hired if his/her" age is grater than 21 and s/he has a driver license , otherwise print "Rejected" Or Hire him/her without conditions! 
 
 #include <iostream>
 using namespace std;
@@ -204,7 +207,8 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 //================================================================================================================================================================
-Problem_6 >> Write a program to ask user to enter : first name amd last name
+
+//Problem_6 >> Write a program to ask user to enter : first name amd last name
 
 #include <iostream>
 using namespace std;
