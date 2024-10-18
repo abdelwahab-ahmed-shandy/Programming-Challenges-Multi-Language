@@ -641,14 +641,12 @@ int main()
 	return 0;
 }
 
-
 //================================================================================================================================================================
 //================================================================================================================================================================
 //================================================================================================================================================================
 
 //Problem_15 >>Rectangle Area Write a program to calculate rectangle area and print it on the screen 
 // Area = a*b 
-
 
 #include <iostream>
 #include <cmath>
@@ -685,7 +683,226 @@ int main()
 	return 0;
 }
 
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_16 >>Rectangle area though diagonal and side Area .
+// Write a program to calculate rectangle area through diagonal and site area of rectangle and print it on the screen .
+// Area = a * sqrt(d*d - a*a)
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void ReadDiagonalSideArea(float &A , float &D)
+{
+	cout << "Rectangle area though diagonal and side Area Write a program to calculate rectangle area through diagonal and site area of rectangle and print it on the screen ." << endl << endl;
+	
+	cout << "Enter The Diagonal : ";
+	cin >> A;
+
+	cout << "Enter The Side Area : ";
+	cin >> D;
+}
+
+float CalcRectangleArea(float A, float D)
+{
+	float Result = (A)*sqrt( pow(D, 2) - pow(A, 2) );
+	return Result;
+}
+
+void PrintResultArea(float RectangleArea)
+{
+	cout << "\n==========================\n";
+	cout << "Rectangle Area Though Diagonal and Side Area : " << RectangleArea << endl;
+	cout << "\n==========================\n";
+}
+
+int main()
+{
+	float A, D;
+	ReadDiagonalSideArea(A, D);
+	PrintResultArea(CalcRectangleArea(A, D));
+	return 0;
+}
 
 //================================================================================================================================================================
 //================================================================================================================================================================
 //================================================================================================================================================================
+
+// Problem_17 >>Triangle Area 
+// Write a program to calculate triangle area then print it on the screen 
+// Area = a/2 * h
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void ReadTriangleBaseHeight(float &A , float & H)
+{
+	cout << "Write a program to calculate triangle area then print it on the screen" << endl << endl;
+	
+	cout << "Enter The Triangle Base : ";
+	cin >> A;
+
+	cout << "Enter The height : ";
+	cin >> H;
+}
+
+float CalcRectangleArea(float A, float H)
+{
+	float Result = (A/2) * H ;
+	return Result;
+}
+
+void PrintResultArea(float TriangleArea)
+{
+	cout << "\n==========================\n";
+	cout << "The Triangle Area is  : " << TriangleArea << endl;
+	cout << "\n==========================\n";
+}
+
+int main()
+{
+	float A, H;
+	ReadTriangleBaseHeight(A, H);
+	PrintResultArea(CalcRectangleArea(A, H));
+	return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_18 >>Circle Area 
+// Write a program to calculate  circle area then print it on the screen 
+// PI = 3.14
+// Area = PI * (r * r)
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void ReadRadiusCircle(float &R)
+{
+	cout << "Write a program to calculate  circle area then print it on the screen" << endl << endl;
+	
+	cout << "Enter The Radius : ";
+	cin >> R;
+}
+
+float CalcCircleArea(float R, float PI)
+{
+	float Result = (PI) * (pow(R,2)) ;
+	return Result;
+}
+
+void PrintResultArea(float CircleArea)
+{
+	cout << "\n==========================\n";
+	cout << "The Circle Area is  : " << CircleArea << endl;
+	cout << "\n==========================\n";
+}
+
+int main()
+{
+	const float PI = 3.14159265359;
+	float R;
+	ReadRadiusCircle(R);
+	PrintResultArea(CalcCircleArea(R , PI));
+	return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_19 >> Circle Area Through Diameter
+// Write a program to calculate circle area through dirameter, then print it on the screen
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void ReadDirameterCircle(float &D)
+{
+	cout << "Write a program to calculate circle area through dirameter, then print it on the screen" << endl << endl;
+	
+	cout << "Enter The Radius : ";
+	cin >> D;
+}
+
+float CalcCircleArea(float D, float PI)
+{
+	float Result = ( PI * pow(D, 2) ) / 4;
+	return Result;
+}
+
+void PrintResultArea(float CircleArea)
+{
+	cout << "\n==========================\n";
+	cout << "The Circle Area is  : " << CircleArea << endl;
+	cout << "==========================\n";
+}
+
+int main()
+{
+	const float PI = 3.14159265359;
+	float D;
+	ReadDirameterCircle(D);
+	PrintResultArea(CalcCircleArea(D , PI));
+	return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+
+// Problem_20 >> Circle Area Inscribed in a square 
+// Write a program to calculate area inscribed in a square , then print it on the screen
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+float ReadSquare()
+{
+	cout << "Write a program to calculate area inscribed in a square , then print it on the screen" << endl<< endl;
+
+	float A;
+
+	cout << "Enter The Square Side : ";
+	cin >> A;
+	return A;
+}
+
+float CalcuareaInscribedInSquare(float A)
+{
+	const float PI = 3.14159265359;
+
+	float Result = (PI * pow(A, 2)) / 4;
+
+	return Result;
+}
+void PrintCalculateArea(float CircleArea)
+{
+	cout << "\n==========================\n";
+	cout << "The Circle Area is  : " << CircleArea << endl;
+	cout << "==========================\n";
+}
+
+int main()
+{
+	PrintCalculateArea(CalcuareaInscribedInSquare(ReadSquare()));
+	return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+
