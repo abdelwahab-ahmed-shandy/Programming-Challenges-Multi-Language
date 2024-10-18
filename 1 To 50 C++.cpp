@@ -1441,3 +1441,127 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 
+//Problem_33 >> Grade A, B, C, D, E, F
+//Write a program to ask the user to enter : Grade
+//Then print the grade as follows :
+//-100 - 90 print A
+//- 89 - 80 print B
+//- 79 - 70 print C
+//- 69 - 60 print D
+//- 59 - 50 print E
+//Overwise print F
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int ReadGread(int From , int To)
+{
+	int Grade;
+	do 
+	{
+		cout << "Enter Your Grade between 0 To 100 : ";
+		cin >> Grade;
+	} while (Grade<From || Grade >To);
+	return Grade;
+}
+
+char GetGradeLetter(int Grade)
+{
+	if (Grade >= 90)
+		return 'A';
+	else if (Grade >= 80)
+		return 'B';
+	else if (Grade >= 70)
+		return 'C';
+	else if (Grade >= 60)
+		return 'D';
+	else if (Grade >= 50)
+		return 'E';
+	else
+		return 'F';
+}
+
+void PrintGrade(char Grade)
+{
+	cout << "The Result is :" << Grade << endl;
+}
+
+int main()
+{
+	PrintGrade(GetGradeLetter(ReadGread(0, 100)));
+	return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+//  Problem_34 >> Commission Percentage
+//  Write a program to ask the user to enter : Total sales
+//  - The commission is calculate as one percentage * the total sales amount, all you need is to decide which percentage to use of the following :
+//  > 1000, 000 -- > Percentage is 1 %
+//  > 500K to 1M-- > Percentage is 2 %
+//  > 100K - 500K-- > Percentage is 3 %
+//  > 50K to 100K-- > Percentage is 5 %
+//  > otherwise-- > Percentage is 0 %
+//  Input >> 110, 000
+//  Output >> 3, 300
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+float ReadTotalSalse()
+{
+    float TotalSalse;
+
+    cout << "Enter a Total Sales: ";
+    cin >> TotalSalse;
+    return TotalSalse;
+}
+
+float CommissionSalse(float TotalSalse)
+{
+    if (TotalSalse >= 1000000)
+        return 0.01;
+    else if (TotalSalse >= 500000)
+        return 0.02;
+    else if (TotalSalse >= 100000)
+        return 0.03;
+    else if (TotalSalse >= 50000)
+        return 0.05;
+    else
+        return 0.00;
+}
+
+float CalcuCommissionPercentage(float TotalSalse)
+{
+    return CommissionSalse(TotalSalse) * TotalSalse;
+}
+
+void PrintCommissionPercentage(float TotalSalse)
+{
+    float commissionRate = CommissionSalse(TotalSalse);
+    float totalCommission = CalcuCommissionPercentage(TotalSalse);
+
+    cout << endl << "Commission Percentage = " << commissionRate * 100 << "%" << endl;
+    cout << "Total Commission = " << totalCommission << endl;
+}
+
+int main()
+{
+    float totalSales = ReadTotalSalse();
+    PrintCommissionPercentage(totalSales);
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
