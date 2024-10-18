@@ -1565,6 +1565,16 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 
+//Problem_35 >> Piggy Bank Calculator 
+//Write a program to ask the user to enter:
+//Pennies , Nickels , Dimes , Quarters , Dollars 
+//#Then calculate the total pennies , total dollars and print them on screen giving that :
+//- penny  = 1
+//- Nickel = 5
+//- Dime   = 10
+//- Quarter= 25
+//- Dollar = 100
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -1622,3 +1632,272 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 
+// Problem_36 >> Simple Calculator
+// Write a program to ask the user to enter :
+// -Number1, Number2, Operation Type
+// Then perform the calculation according to the operation type as follows :
+// -"+" add the two numbers.
+// - "-" subtract the two numbers.
+// - "*" multiply the two numbers.
+// - "/" devide the two numbers.
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+float ReadNumber(string Message)
+{
+    float Num = 0;
+    cout << Message << endl;
+    cin >> Num;
+
+    return Num;
+}
+
+enum enTypeOpert { Add, Subtract, Multiply, Divide };
+
+enTypeOpert ReadTypeOpert()
+{
+    char CharTypeOpert;
+    cout << "Enter Operation Type ( +, - , * , / ) : " << endl;
+    cin >> CharTypeOpert;
+    switch (CharTypeOpert)
+    {
+    case '+':
+        return enTypeOpert::Add;
+    case '-':
+        return enTypeOpert::Subtract;
+    case '*':
+        return enTypeOpert::Multiply;
+    case '/':
+        return enTypeOpert::Divide;
+    default:
+        cout << "Invalid Operation, defaulting to Add." << endl;
+        return enTypeOpert::Add;
+    }
+}
+
+float CalcuNumbers(float Num1, float Num2, enTypeOpert TypeOperation)
+{
+    switch (TypeOperation)
+    {
+    case enTypeOpert::Add:
+        return Num1 + Num2;
+    case enTypeOpert::Subtract:
+        return Num1 - Num2;
+    case enTypeOpert::Multiply:
+        return Num1 * Num2;
+    case enTypeOpert::Divide:
+        return Num1 / Num2;
+    default:
+        return Num1 + Num2;
+    }
+}
+
+int main()
+{
+    float Num1 = ReadNumber("Enter the First Number");
+    float Num2 = ReadNumber("Enter the Second Number");
+
+    enTypeOpert CharTypeOpert = ReadTypeOpert();
+
+    cout << "\nResult : " << CalcuNumbers(Num1, Num2, CharTypeOpert) << endl;
+
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_37 >> Sum Until - 99
+// Write a program to read numbers from user and sum them, keep reading unit the user enters - 99 then print the Sum on screen
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+float ReadNum(string Message)
+{
+    float Num = 0;
+    cout << Message << endl;
+    cin >> Num;
+
+    return Num;
+}
+
+float SumNum()
+{
+    int Sum = 0;
+    int Number = 0;
+    int Counter = 0;
+
+    do
+    {
+        Number = ReadNum("Enter Number : ");
+        if (Number == -99)
+        {
+            break;
+        }
+        Sum = Sum + Number;
+        Counter++;
+    } while (Number != -99);
+    
+    return Sum;
+}
+
+int main()
+{
+    cout << "===============================\n";
+    cout << endl << "The Result = " << SumNum() << endl;
+    cout << "===============================\n";
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_38 >> Is Prime Number ? 
+// Write a program to read a number and check if it is a prime number or not 
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+enum enPrimeOrNot {Prime =1 , NotPrime= 2};
+
+enPrimeOrNot CheckPrime(int Num)
+{
+	int M = round(Num / 2);
+
+	for (int i = 2; i <= M; i++)
+	{
+		if (Num % i == 0)
+			return enPrimeOrNot::NotPrime;
+	}
+	return enPrimeOrNot::Prime;
+}
+
+float ReadPositiveNumber(string Message)
+{
+	float Num = 0;
+
+	do
+	{
+		cout << Message << endl;
+		cin >> Num;
+	} while (Num <= 0);
+	return Num;
+}
+
+void PrintNum(int Num)
+{
+	switch (CheckPrime(Num))
+	{
+	case enPrimeOrNot::Prime:
+		cout << "Prime Number \n";
+		break;
+	case enPrimeOrNot::NotPrime:
+		cout << "Not Prime Number \n";
+		break;
+	}
+}
+
+int main()
+{
+	PrintNum(ReadPositiveNumber("Enter Positive Number : "));
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+
+// Problem_39 >> Pay Remainder ? 
+// Write a program to read a totalBill nd cashpaid and calculate the remainder to paid back .
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+void ReadBillPaid(float &TotalBill,float &CashPaid)
+{
+    cout << "Enter The Total Bill :";
+    cin >> TotalBill;
+    cout << "Enter The Cash Paid :";
+    cin >> CashPaid;
+}
+
+float CalcuPayRemainder(float TotalBill,float CashPaid)
+{
+    float TotalPayRemainder = CashPaid - TotalBill;
+    return TotalPayRemainder;
+}
+
+void PrintRemainder(float TotalPayRemainder)
+{
+    cout << endl << "The Total Pay Remainder : " << TotalPayRemainder << endl;
+}
+
+int main()
+{
+    float TotalBill, CashPaid;
+    ReadBillPaid(TotalBill, CashPaid);
+    PrintRemainder(CalcuPayRemainder(TotalBill, CashPaid));
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_40 >> Sevice Fee and Salse Tax
+// Write a program to read a BillValue and add Service fee and salse tax tax to it, and print the totalbill on the screen
+// - A Resturant charge 10 % services fee and 16 % salse Tax
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+float ReadBillValue()
+{
+    float BillValue = 0;
+    cout << "Enter The Bill Value : ";
+    cin >> BillValue;
+    return BillValue;
+}
+float CalcuTotalBill(float BillValue)
+{
+    float TotalBill = BillValue * 1.1  ;
+    TotalBill = TotalBill * 1.16;
+    return TotalBill;
+}
+void PrintTotalBill(float TotalBill)
+{
+    cout << endl << "The Total Bill Is : " << TotalBill << endl;
+}
+int main()
+{
+    PrintTotalBill(CalcuTotalBill(ReadBillValue()));
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
