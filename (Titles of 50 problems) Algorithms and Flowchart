@@ -175,8 +175,18 @@ input >> 10 , 20 , 30 , 40 , -99
 output >>100
 #This means that the program continues to receive numbers and adds them to the number before it, until it reaches the number (-99).
 
+Problem_38 >> Is Prime Number ? 
+Write a program to read a number and check if it is a prime number or not 
 
-Outputs >> 2.17 weeks , 15.20Days 
+Problem_39 >> Pay Remainder ? 
+Write a program to read a totalBill nd cashpaid and calculate the remainder to paid back .
+
+Problem_40 >> Sevice Fee and Salse Tax 
+Write a program to read a BillValue and add Service fee and salse tax tax to it , and print the totalbill on the screen 
+- A Resturant charge 10% services fee and 16% salse Tax 
+
+Problem_41 >> Weeks and Days  
+Write a program to read a NumberOfHours and calculate the number of weeks and days included in that number  
 
 Problem_42 >> Task Duration In Seconds 
 Write a program to calculate the task duration in seconds and print it on screen 
