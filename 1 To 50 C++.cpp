@@ -2226,3 +2226,217 @@ int main()
 //================================================================================================================================================================
 //================================================================================================================================================================
 
+// Problem_46 >> Print Letter From a to z
+// Write a program to print all letters from A to Z
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+void PrintAToZ()
+{
+    int i = 65;
+	for (i ;  i <= 90 ;i++)
+	{
+		cout << char(i) << endl;
+	}
+}
+
+int main()
+{
+	PrintAToZ();
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+
+// Problem_47 >> Loan Installment Months 
+// Write a program to read a LoanAmount and MonthlyPayment and Calculate how many months you needs to settle the loan.
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+void ReadLoanInstallment(float &LoanAmount,float &MonthlyPayment)
+{
+    cout << "How to Loan Amount : ";
+    cin >> LoanAmount;
+    cout << "How to Monthly Payment : ";
+    cin >> MonthlyPayment;
+}
+float CalcuLoanInstallment(float LoanAmount, float MonthlyPayment)
+{
+    return LoanAmount / MonthlyPayment;
+}
+
+int main()
+{
+    float LoanAmount, MonthlyPayment;
+    ReadLoanInstallment(LoanAmount, MonthlyPayment);
+    cout <<"\nThe total Month is : " << CalcuLoanInstallment(LoanAmount, MonthlyPayment)<<endl ;
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+
+// Problem_48 >> Monthy Loan Installment 
+// Write a program to read a LoanAmount and ask you how many months you need to settle the loan , then calculate the monthly installment amount .
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+void ReadLoanInstallment(float &LoanAmount,float & HowManyMonthly)
+{
+    cout << "How to Loan Amount : ";
+    cin >> LoanAmount;
+    cout << "How Many Need A Monthly : ";
+    cin >> HowManyMonthly;
+}
+float CalcuLoanInstallment(float LoanAmount, float HowManyMonthly)
+{
+    return LoanAmount / HowManyMonthly;
+}
+
+int main()
+{
+    float LoanAmount, HowManyMonthly;
+    ReadLoanInstallment(LoanAmount, HowManyMonthly);
+    cout <<"\nThe Total Monthly Payment is : " << CalcuLoanInstallment(LoanAmount, HowManyMonthly)<<endl ;
+    return 0;
+}
+
+
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_49 >> ATM PIN
+// Write a program to read the ATM PIN code from the user, Then check if PIN code = 1234, Then show the balance to user, otherwise print " Wong PIN " and ask the user to enter the PIN again
+// Assume User Balance is 7500
+// If he enters the wrong pin, I will make him read it again and make the screen red.
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+string ReadPin()
+{
+    string PinCode;
+    cout << "Enter Pin Code : ";
+    cin >> PinCode;
+
+    return PinCode;
+}
+
+bool Login()
+{
+    string PinCode;
+    do
+    {
+        PinCode == ReadPin();
+
+        if (PinCode == "1234")
+        {
+            return 1;
+        }
+        else
+        {
+            cout << "\nWrong Pin Code\n";
+            system("color 4F"); // Red
+        }
+
+    } while (PinCode !="1234");
+    
+    return 0;
+}
+
+int main()
+{
+    if (Login())
+    {
+        system("color 2F"); // green
+        cout << endl << "Your account Balance is : " << 7500 << endl;
+    }
+    return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_50 >> ATM PIN 3 Times
+// Write a program to read the ATM PIN code from the user, then check if code = 1234, then show the balance to user, otherwise print " Wrong PIN " and ask the user to enter  the PIN again
+// #Only  allow user to enter the PIN 3 times, if fails, print " Card is locked "
+// - Assume user Balance is 7500
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+string ReadPin()
+{
+    string PinCode;
+    cout << "Enter Pin Code : ";
+    cin >> PinCode;
+
+    return PinCode;
+}
+
+bool Login()
+{
+    int i = 3;
+    string PinCode;
+    do
+    {
+        i--;
+        PinCode = ReadPin();
+
+        if (PinCode == "1234")
+        {
+            return 1;
+        }
+        else
+        {
+            cout << "\nWrong Pin Code You Have \n"<<i <<"More try"<<endl; 
+            system("color 4F"); // Red
+        }
+
+    } while (PinCode !="1234" && i >=1);
+    
+    return 0;
+}
+
+int main()
+{
+    if (Login())
+    {
+        system("color 2F"); // green
+        cout << endl << "Your account Balance is : " << 7500 << endl;
+    }
+    else
+    {
+        cout << "\nYour Card Blocked Call The Bank For Help \n";
+    }
+    return 0;
+}
+
+
+//================================================================================================================================================================
+//========================================================================== THIS IS END =========================================================================
+//================================================================================================================================================================
