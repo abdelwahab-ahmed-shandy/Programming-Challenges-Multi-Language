@@ -1897,7 +1897,332 @@ int main()
     return 0;
 }
 
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_41 >> Weeks and Days
+// Write a program to read a NumberOfHours and calculate the number of weeks and days included in that number
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+float ReadNumOfHours()
+{
+    float NumOfHours = 0;
+    cout << "Enter The Number Of Hours: ";
+    cin >> NumOfHours;
+    return NumOfHours;
+}
+
+void CalcWeekDay(float NumOfHours, float& NumOfDays, float& NumOfWeeks)
+{
+    NumOfDays = NumOfHours / 24;
+    NumOfWeeks = NumOfDays / 7;
+}
+
+void PrintNumOfDayWeek(float NumOfDays, float NumOfWeeks)
+{
+    cout << endl << "The Number Of Weeks Is: " << NumOfWeeks << endl;
+    cout << endl << "The Number Of Days Is: " << NumOfDays << endl;
+}
+
+int main()
+{
+    float NumOfHours = ReadNumOfHours();
+    float NumOfDays = 0, NumOfWeeks = 0;
+    CalcWeekDay(NumOfHours, NumOfDays, NumOfWeeks);
+    PrintNumOfDayWeek(NumOfDays, NumOfWeeks);
+    return 0;
+}
 
 //================================================================================================================================================================
 //================================================================================================================================================================
 //================================================================================================================================================================
+
+// Problem_42 >> Task Duration In Seconds
+// Write a program to calculate the task duration in seconds and print it on screen
+// >> Give the time duration of a task in the numbers of days, hours, minutes and seconds
+// Input >> 2, 4, 45, 35
+// Output >> 193, 535 Seconds
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int ReadPositiveNumber(string Message)
+{
+    int Num = 0;
+
+    do
+    {
+        cout << Message ;
+        cin >> Num;
+    } while (Num <= 0);
+    return Num;
+}
+
+struct strDurationTime
+{
+    int NumberOfDays, NumberOfHours, NumberOfMinutes, NumberOfSeconds;
+};
+
+strDurationTime ReadDurationTime()
+{
+    strDurationTime DurationTime;
+    DurationTime.NumberOfDays = ReadPositiveNumber("Enter Number Of Days : ");
+    DurationTime.NumberOfHours = ReadPositiveNumber("Enter Number Of Hours : ");
+    DurationTime.NumberOfMinutes = ReadPositiveNumber("Enter Number Of Minutes : ");
+    DurationTime.NumberOfSeconds = ReadPositiveNumber("Enter Number Of Seconds : ");
+
+    return DurationTime;
+}
+
+int DurationInSeconds(strDurationTime DurationTime)
+{
+    int TotalDurationInSeconds = 0;
+
+    TotalDurationInSeconds += DurationTime.NumberOfDays * 24 * 60 * 60;
+    TotalDurationInSeconds += DurationTime.NumberOfHours * 60 * 60;
+    TotalDurationInSeconds += DurationTime.NumberOfMinutes * 60;
+    TotalDurationInSeconds += DurationTime.NumberOfSeconds;
+
+    return TotalDurationInSeconds;
+}
+
+int main()
+{
+    cout << "The Task Duration In Seconds: " << DurationInSeconds(ReadDurationTime()) << endl;
+    return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_43 >> Seconds to Days Hours Minutes Seconds
+// Write a program that inputs the number of seconds and changes it to days, hours, minutes and seconds
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+struct strTimeChanges
+{
+    int Days, Hours, Minutes, Seconds;
+};
+
+int ReadPositiveNumber(string Message)
+{
+    int Num = 0;
+
+    do
+    {
+        cout << Message;
+        cin >> Num;
+    } while (Num <= 0);
+    return Num;
+}
+
+strTimeChanges TimeChangeSeconds(int TotalSeconds)
+{
+    strTimeChanges TimeChange;
+    const int SecondsPerDays = 24 * 60 * 60;
+    const int SecondsPerHours = 60 * 60;
+    const int SecondsPerMinutes = 60;
+
+    int Remainder;
+
+    TimeChange.Days = floor(TotalSeconds / SecondsPerDays);
+    Remainder = TotalSeconds % SecondsPerDays;
+
+    TimeChange.Hours = floor(TotalSeconds / SecondsPerHours);
+    Remainder = TotalSeconds % SecondsPerHours;
+
+    TimeChange.Minutes = floor(TotalSeconds / SecondsPerMinutes);
+    Remainder = TotalSeconds % SecondsPerMinutes;
+
+    TimeChange.Seconds = Remainder;
+
+    return TimeChange;
+}
+
+void PrinTimeChanges(strTimeChanges TimeChanges)
+{
+    cout << endl << TimeChanges.Days    <<" : "
+                 << TimeChanges.Hours   <<" : "
+                 << TimeChanges.Minutes <<" : "
+                 << TimeChanges.Seconds << endl;
+}
+
+int main()
+{
+    int TotalSeconds = ReadPositiveNumber("Enter Total Seconds : ");
+    PrinTimeChanges(TimeChangeSeconds(TotalSeconds));
+    return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_44 >> Day of week
+// Write a program to ask the user to enter : Day
+// Then Print the day as follows :
+// 1 Print Sunday
+// 2 Print Monday
+// 3 Print Tuesday
+// 4 Print Wednesday
+// 5 Print Thursday
+// 6 Print Friday
+// 7 Print Saturday
+// - Otherwise print  " Wrong Day " and ask the use to enter the day again
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+enum enDays { Sunday = 1, Monday = 2 , Tuesday = 3 , Wednesday = 4 , Thursday = 5, Friday= 6, Saturday=7};
+
+int ReadNumberOfDay(string Message, int From, int To)
+{
+    int Num = 0;
+    do
+    {
+        cout << Message << endl;
+        cin >> Num;
+    } while (Num < From || Num >To);
+    
+    return Num;
+}
+
+enDays ReadDayOfWeek()
+{
+    return (enDays)ReadNumberOfDay("Enter Day Number Sunday = 1 Monday = 2  Tuesday = 3  Wednesday = 4  Thursday = 5  Friday = 6  Saturday = 7", 1 ,7);
+}
+
+string DayOfWeek(enDays Day)
+{
+    switch (Day)
+    {
+    case enDays::Sunday:
+        return "Sunday";
+    case enDays::Monday:
+        return "Monday";
+    case enDays::Tuesday:
+        return "Tuesday";
+    case enDays::Wednesday:
+        return "Wednesday";
+    case enDays::Thursday:
+        return "Thursday";
+    case enDays::Friday:
+        return "Friday";
+    case enDays::Saturday:
+        return "Saturday";
+    default :
+        return "Not Found";
+    }
+}
+
+int main()
+{
+    cout << DayOfWeek(ReadDayOfWeek()) << endl;
+    return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
+// Problem_45 >> Month Of year
+// Write a program to ask the user to enter : Month
+// Then Print the day as follows :
+// 1 print Jun
+// 2 print Feb
+// 3 print Mar
+// 4 print Apr
+// 5 print May
+// 6 print June
+// 7 print July
+// 8 print Aug
+// 9 print Sep
+// 10 print Oct
+// 11 print Nov
+// 12 print December
+// - Otherwise print  " Wrong Day " and ask the use to enter the Manth again
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+enum enMonth
+{
+    Jun = 1, Feb = 2, Mar = 3, Apr = 4, May = 5, June = 6,
+    July = 7, Aug = 8, Sep = 9, Oct = 10, Nov=11, Dec = 12
+};
+
+int ReadNumInReange(string Message, int From, int To)
+{
+    int Num = 0;
+    do
+    {
+        cout << Message << endl;
+        cin >> Num;
+    } while (From > Num || Num > To);
+    return Num;
+}
+
+enMonth ReadMonthYear()
+{
+    return (enMonth)ReadNumInReange("Enter Number Of Month : ", 1, 12);
+}
+
+string GetMonth(enMonth Month)
+{
+    switch (Month)
+    {
+    case enMonth::Jun :
+        return "Jun";
+    case enMonth::Feb:
+        return "Feb";
+    case enMonth::Mar:
+        return "Mar";
+    case enMonth::Apr:
+        return "Apr";
+    case enMonth::May:
+        return "May";
+    case enMonth::June:
+        return "June";
+    case enMonth::July:
+        return "July";
+    case enMonth::Aug:
+        return "Aug";
+    case enMonth::Sep:
+        return "Sep";
+    case enMonth::Oct:
+        return "Oct";
+    case enMonth::Nov:
+        return "Nov";
+    case enMonth::Dec:
+        return "Dec";
+    default:
+        return "Not Found";
+    }
+}
+
+int main()
+{
+    cout << GetMonth(ReadMonthYear()) << endl;
+    return 0;
+}
+
+//================================================================================================================================================================
+//================================================================================================================================================================
+//================================================================================================================================================================
+
