@@ -13,10 +13,10 @@ This repository contains solutions to <span style="color:green;">50 programming 
 
 <h2 style="color:orange;">Getting Started</h2>
 
-Clone the repository:
-```bash
-git clone https://github.com/abdelwahab-shandy/Mini_Programs_With_Algorithms.git
+<h2 style="color:orange;">Getting Started</h2>
 
+Clone the repository:
+git clone https://github.com/abdelwahab-shandy/Mini_Programs_With_Algorithms.git
 
 <h2 style="color:teal;">File Structure</h2>
 Mini_Programs_With_Algorithms/
@@ -27,3 +27,4 @@ Mini_Programs_With_Algorithms/
 │   └── problem2_flowchart.png
 └── README.md
 <h2 style="color:violet;">License</h2> <p>This project is licensed under the <span style="color:brown;">MIT License</span>.</p> ```
+
