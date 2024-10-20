@@ -13,8 +13,6 @@ This repository contains solutions to <span style="color:green;">50 programming 
 
 <h2 style="color:orange;">Getting Started</h2>
 
-<h2 style="color:orange;">Getting Started</h2>
-
 Clone the repository:
 git clone https://github.com/abdelwahab-shandy/Mini_Programs_With_Algorithms.git
 
