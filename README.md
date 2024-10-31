@@ -1,28 +1,31 @@
-<h1 style="color:blue;">#Mini Programs With Algorithms</h1>
+# Programming Challenges in C++ - Flowcharts
 
-<p style="color:black;">
-This repository contains solutions to <span style="color:green;">50 programming challenges</span> implemented in <span style="color:purple;">C++</span>. Each problem is accompanied by a flowchart that visualizes the logic before diving into the implementation. It’s an educational resource for learning and practicing algorithmic thinking and problem-solving.
-</p>
+![Project Status](https://img.shields.io/badge/status-active-brightgreen)
+![GitHub issues](https://img.shields.io/github/issues/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
+![GitHub forks](https://img.shields.io/github/forks/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
+![GitHub stars](https://img.shields.io/github/stars/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
 
-<h2 style="color:red;">Features</h2>
-<ul>
-  <li>50+ algorithmic challenges.</li>
-  <li>Flowchart visualization for each problem.</li>
-  <li>C++ implementations with detailed comments.</li>
-</ul>
+## Project Description
 
-<h2 style="color:orange;">Getting Started</h2>
+This project provides programming challenges using C++, complemented by flowcharts that visually illustrate the solution steps. It aims to enhance coding, analytical, and problem-solving skills for advanced developers and serves as a comprehensive reference for challenging programming concepts.
 
-Clone the repository:
-git clone https://github.com/abdelwahab-shandy/Mini_Programs_With_Algorithms.git
+## Features
 
-<h2 style="color:teal;">File Structure</h2>
-Mini_Programs_With_Algorithms/
-├── problem1.cpp
-├── problem2.cpp
-├── flowcharts/
-│   └── problem1_flowchart.png
-│   └── problem2_flowchart.png
-└── README.md
+- **Diverse Challenges**: Offers tasks covering various programming concepts, such as algorithms and data structures.
+- **Flowcharts**: Visual guides that help you understand each step of the solution.
+- **Real-world Examples**: Practical applications for realistic scenarios.
+
+## Requirements
+
+- **C++ Compiler**: Preferably GCC or an equivalent.
+- **IDE** (optional): Visual Studio, CLion, or any C++-supporting IDE.
+
+## Usage
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts.git
+
 <h2 style="color:violet;">License</h2> <p>This project is licensed under the <span style="color:brown;">MIT License</span>.</p> ```
 
