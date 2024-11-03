@@ -57,5 +57,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 Abdelwahab Shandy - LinkedIn : https://www.linkedin.com/in/abdelwahab-shandy/
+
 Abdelwahab Shandy - Medium   : https://medium.com/@abdelwahabshandy
+
 Project Link: [Programming-Challenges-CPlusPlus-Flowcharts](https://github.com/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
