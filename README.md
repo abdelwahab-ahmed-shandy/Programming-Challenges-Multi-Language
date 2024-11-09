@@ -59,5 +59,3 @@ Distributed under the MIT License. See LICENSE for more information.
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelwahab-shandy/)
 [![Medium](https://img.shields.io/badge/-Medium-00AB6C?logo=medium&logoColor=white)](https://medium.com/@abdelwahabshandy)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/abdelwahab-shandy)
-[![Instagram](https://img.shields.io/badge/-Instagram-E1306C?logo=instagram&logoColor=white)](https://www.instagram.com/as__cyber/?locale=us)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/AS_Cyber0)
