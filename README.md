@@ -1,4 +1,7 @@
 # Programming Challenges in C++ - Flowcharts
+![License](https://img.shields.io/github/license/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
+![Issues](https://img.shields.io/github/issues/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
+![Stars](https://img.shields.io/github/stars/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
 
 Welcome to the **Programming Challenges in C++ - Flowcharts** repository! This project is designed to help advanced programmers visualize and solve complex programming challenges using both C++ code and flowcharts. By following the flowcharts, you can understand the logical flow of each solution before diving into the code.
 
