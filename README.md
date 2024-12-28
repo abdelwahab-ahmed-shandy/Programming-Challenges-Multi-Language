@@ -61,6 +61,8 @@ Fork the repository.
 ## License
 Distributed under the MIT License. See LICENSE for more information.
 
+If you benefit from something, do not forget to pray for me and my parents.
+
 ## 📫 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelwahab-shandy/)
 [![Medium](https://img.shields.io/badge/-Medium-00AB6C?logo=medium&logoColor=white)](https://medium.com/@abdelwahabshandy)
