@@ -18,7 +18,7 @@ It is designed to demonstrate how different languages can be used to approach th
 
 - ✅ C++
 - ✅ C#
-*(More languages will be added over time)*
+- *(More languages will be added over time)*
 
 ---
 
