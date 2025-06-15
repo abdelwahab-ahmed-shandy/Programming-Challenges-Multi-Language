@@ -1,48 +1,59 @@
-//Problem_3 >> Write a program to ask the user to enter a number , then print "ODD" if its odd , or "EVEN if its even
+/*
+* Problem 3
+*
+* Write a program to ask the user to enter a number , then print "ODD" if its odd , or "EVEN if its even
+*
+*/
 
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-int ReadNum(int &EnterNum) 
+int readNumber(int& enterNumber)
 {
-	cout <<"Write a program to ask the user to enter a number , then print ODD if its odd , or EVEN if its even"<<endl;
+	cout << "Write a program to ask the user to enter a number , then print ODD if its odd , or EVEN if its even" << endl;
 	cout << "Enter Your Number : ";
-	cin >> EnterNum;
-	return EnterNum;
+	cin >> enterNumber;
+	return enterNumber;
 }
 
-enum enTYpeNumbers {ODD =1 ,EVEN =2 };
-
-enTYpeNumbers CheakNumType(int EnterNum)
+enum enTypeNumber
 {
-	int Result = EnterNum % 2;
+	ODD = 0,
+	EVEN = 1
+};
+
+enTypeNumber CheakTypeNumber(int enterNumber)
+{
+	int Result = enterNumber % 2;
 
 	if (Result == 0)
-		return enTYpeNumbers::EVEN;
+		return enTypeNumber::EVEN;
 	else
-		return enTYpeNumbers::ODD;
+		return enTypeNumber::ODD;
 }
 
-void PrintTyprNum(enTYpeNumbers TypeNum)
+void PrintTypeNumber(enTypeNumber TypeNumber)
 {
-	if (TypeNum == enTYpeNumbers::EVEN) 
+	if (TypeNumber == enTypeNumber::EVEN)
 	{
-		cout <<endl<< "=====================" << endl;
-		cout << "Number is a Even" << endl;
-		cout << "=====================" << endl;
+		cout << endl << "---------------------" << endl;
+		cout << "The Number Is Even " << endl;
+		cout << "---------------------" << endl;
 	}
 	else
 	{
-		cout << endl << "=====================" << endl;
-		cout << "Number is a Odd" << endl;
-		cout << "=====================" << endl;
+		cout << endl << "---------------------" << endl;
+		cout << "The Number Is Odd " << endl;
+		cout << "---------------------" << endl;
 	}
-
 }
+
 
 int main()
 {
 	int enterNum;
-	PrintTyprNum(CheakNumType(ReadNum(enterNum)));
+	PrintTypeNumber(CheakTypeNumber(readNumber(enterNum)));
 	return 0;
 }

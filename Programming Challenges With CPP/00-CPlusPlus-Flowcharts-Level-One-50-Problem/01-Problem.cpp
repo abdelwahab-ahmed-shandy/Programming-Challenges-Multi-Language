@@ -1,16 +1,25 @@
-//Problem_1 >> Write a program to print your name on screen 
+/*
 
-#include <iostream> 
+Problem 1
+
+Write a program to print your name on screen
+
+*/
+
+#include <iostream>
 using namespace std;
 
-void PrintName(string Name) 
+/// <summary>
+/// Prints a message displaying the given name
+/// </summary>
+/// <param name="yourName"></param>
+void printYourName(string yourName)
 {
-	cout << "Your Name Is : " << Name << endl;
+	cout << "Your Name Is : " << yourName << endl;
 }
 
 int main()
 {
-	PrintName("Abdelwahab Shandy");
-	
+	printYourName("Abdelwahab Ahmed Shandy \"\)");
 	return 0;
 }

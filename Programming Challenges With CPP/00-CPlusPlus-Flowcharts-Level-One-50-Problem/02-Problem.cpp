@@ -1,26 +1,36 @@
-//Problem_2 >> Write a program to ask the user to enter his / hir name and print it on screen
+/*
+* Problem 2 
+* 
+* Write a program to ask the user to enter his/hir name and print it on screen . 
+* 
+*/
 
-#include <iostream> 
+#include <iostream>
 #include <string>
 
 using namespace std;
 
-string ReadYourName()
+string enterYourAsk(string Ask)
 {
-	string YourName;
+	cout << Ask << "?!" << endl;
 
-	cout << "Enter Your Name : ";
-	getline(cin, YourName);
-	return YourName;
+	return Ask;
 }
 
-void PrintYourName(string YourName)
+string readAnswer(string Answer)
 {
-	cout << "============================================\n";
-	cout << "Your Name is : " << YourName << endl;
+	getline(cin, Answer);
+	return Answer;
+}
+
+void printYourName(string Name)
+{
+	cout << "------------------------------------" << endl;
+	cout << "Your Name Is : " << Name << endl;
 }
 
 int main()
 {
-	PrintYourName(ReadYourName());
+	printYourName(readAnswer(enterYourAsk("What's Your Name")));
+	return 0;
 }
