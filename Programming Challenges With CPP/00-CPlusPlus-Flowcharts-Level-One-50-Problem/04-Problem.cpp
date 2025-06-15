@@ -1,46 +1,62 @@
-//Problem_4 >> Write a program to ask the user to enter his/her Age and Driver license Then print "Hired" if his/her age is grater than 21 and s/he has a driver license, otherwise print "Rejected"
+/*
+* Problem 4
+* Write a program to ask the user to enter his/her Age and Driver license Then print "Hired" if his/her age is grater than 21 and s/he has a driver license,
+* otherwise print "Rejected"
+*
+*/
 
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-struct strInfo 
+struct stInfoPerson
 {
-	string YourName;
-	int Age;
-	bool DriverLicense;
+    string Name;
+    int Age;
+    bool HasDrivingLicense;
 };
 
-strInfo ReadInfo()
+bool ReadHasDrivingLicense()
 {
-	cout << "Write a program to ask the user to enter his/her Age and Driver license Then print Hired if his/her age is grater than 21 and s/he has a driver license, otherwise print Rejected" << endl;
-	
-	strInfo person;
-	cout << "Enter Your Name : ";
-	cin >> person.YourName;
+    string input;
+    cout << "Do you have a driver’s license? (Yes/No): ";
+    cin >> input;
 
-	cout << "How Old Are You : ";
-	cin >> person.Age;
-
-	cout << "Do you have a driving license (Yes type 1, No type 0) : ";
-	cin >> person.DriverLicense;
-	return person;
+    return (input == "Yes" || input == "yes");
 }
 
-bool ChackInfoPerson(strInfo person)
+stInfoPerson ReadInfo()
 {
-	return (person.Age > 21 && person.DriverLicense);
+    stInfoPerson Info;
+
+    cout << "Enter Your Name: ";
+    //cin.ignore(); 
+    getline(cin, Info.Name);
+
+    cout << "Please Enter Your Age: ";
+    cin >> Info.Age;
+
+    Info.HasDrivingLicense = ReadHasDrivingLicense();
+
+    return Info;
 }
 
-void PrintAccepetORNot(strInfo person)
+bool IsAccepted(stInfoPerson Info)
 {
-	if (ChackInfoPerson(person))
-		cout <<endl << "Hello , Hired" << endl;
-	else
-		cout <<endl <<"Sorry , Rejected" << endl;
+    return (Info.Age > 21 && Info.HasDrivingLicense);
+}
+
+void PrintResult(stInfoPerson Info)
+{
+    if (IsAccepted(Info))
+        cout << "\nHired, " << Info.Name << endl;
+    else
+        cout << "\nRejected, " << Info.Name << endl;
 }
 
 int main()
 {
-	PrintAccepetORNot(ReadInfo());
-	return 0;
+    PrintResult(ReadInfo());
+    return 0;
 }
