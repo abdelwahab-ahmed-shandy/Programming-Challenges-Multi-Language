@@ -1,53 +1,94 @@
-//Problem_5 >> Write a program to ask the user to enter his/her : Age , Driver license and Has Recommendation! Then print "Hired if his/her" age is grater than 21 and s/he has a driver license , otherwise print "Rejected" Or Hire him/her without conditions! 
+/*
+* Problem 5
+*
+* Write a program to ask the user to enter his/her : Age , Driver license and Has Recommendation!
+* Then print "Hired if his/her" age is grater than 21 and s/he has a driver license ,
+* otherwise print "Rejected" Or Hire him/her without conditions!
+*
+*/
 
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-struct strInfo
+struct stInfoPerson
 {
-	string YourName;
-	int Age;
-	bool DriverLicense;
-	bool Recommendation;
+    string Name;
+    int age;
+    bool hasDrivingLicense;
+    bool hasRecommendation;
 };
 
-strInfo ReadInfo()
+string EnterYourName()
 {
-	cout << "Write a program to ask the user to enter his/her : Age , Driver license and Has Recommendation! Then print Hired if his / her age is grater than 21 and s/he has a driver license , otherwise print Rejected Or Hire him/her without conditions!" << endl;
+    string Name;
+    cout << "Enter Your Name : ";
+    getline(cin, Name);
 
-	strInfo person;
-	cout << "Enter Your Name : ";
-	cin >> person.YourName;
-
-	cout << "Do you Have Recommendition (Yes type 1, No type 0) : ";
-	cin >> person.Recommendation;
-
-	cout << "How Old Are You : ";
-	cin >> person.Age;
-
-	cout << "Do you have a driving license (Yes type 1, No type 0) : ";
-	cin >> person.DriverLicense;
-	return person;
+    return Name;
 }
 
-bool ChackInfoPerson(strInfo person)
+int EnterYourAge()
 {
-	if (person.Recommendation== true)
-		return true;
-	else 
-		return (person.Age > 21 && person.DriverLicense);
+    int age;
+    cout << "Please Enter Your Age: ";
+    cin >> age;
+
+    return age;
 }
 
-void PrintAccepetORNot(strInfo person)
+bool ReadHasDrivingLicense()
 {
-	if (ChackInfoPerson(person))
-		cout << endl << "Hello , Hired" << endl;
-	else
-		cout << endl << "Sorry , Rejected" << endl;
+    string input;
+    cout << "Do you have a driver’s license? (Yes/No): ";
+    cin >> input;
+
+    return (input == "Yes" || input == "yes");
+}
+
+bool ReadHasRecommendation()
+{
+    string input;
+    cout << "Do you have a Recommendation !? (Yes/No): ";
+    cin >> input;
+
+    return (input == "Yes" || input == "yes");
+}
+
+stInfoPerson ReadInfo()
+{
+    stInfoPerson Info;
+
+    Info.Name = EnterYourName();
+
+    Info.age = EnterYourAge();
+
+    Info.hasDrivingLicense = ReadHasDrivingLicense();
+
+    Info.hasRecommendation = ReadHasRecommendation();
+
+    return Info;
+}
+
+bool IsAccepted(stInfoPerson Info)
+{
+    if (Info.hasRecommendation == true)
+        return true;
+    else
+        return (Info.age > 21 && Info.hasDrivingLicense);
+}
+
+void PrintResult(stInfoPerson Info)
+{
+    if (IsAccepted(Info))
+        cout << "\nHired, " << Info.Name << endl;
+    else
+        cout << "\nRejected," << Info.Name << endl;
 }
 
 int main()
 {
-	PrintAccepetORNot(ReadInfo());
-	return 0;
+    PrintResult(ReadInfo());
+    return 0;
 }
